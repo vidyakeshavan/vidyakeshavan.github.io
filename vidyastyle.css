@@ -8,7 +8,8 @@
 h1 {
 	color: black;
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 165px;
+	font-size: 10.45em;
+	font-weight: bolder;
 	padding-left: 65;
 	padding-top: 0;
 	padding-bottom: 0;
@@ -21,7 +22,8 @@ h1 {
 h2 {
 	color: black; 
 	font-family: 'Nunito Sans', sans-serif;
-	font-size: 5.7em;
+	font-size: 5.8em;
+	font-weight: bolder;
 	padding-left: 65;
 	padding-top: 45;
 	padding-bottom: 0;
