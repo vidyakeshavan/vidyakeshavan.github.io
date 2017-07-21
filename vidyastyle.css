@@ -1,0 +1,142 @@
+.Top {
+	background-color: #4574A2;
+	height: 100%;
+	width: 25px;
+	float: left;
+}
+
+h1 {
+	color: black;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 165px;
+	padding-left: 65;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 150px;
+
+}
+
+h2 {
+	color: black; 
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 5.7em;
+	padding-left: 65;
+	padding-top: 45;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+h3 {
+	color: black;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 25px;
+	padding-left: 65px;
+	padding-top: 45px;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h4 {
+	color: black;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 22px;
+	padding-left: 65px;
+	padding-top: 45px;
+	padding-bottom: 30px;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* For some reason, this made everything collapse on top of each other
+.title {
+	color: black;
+	text-align: left;
+	height: 335px; 
+}
+*/
+
+a {
+	color: red;
+}
+
+ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+ul a {
+	color: blue;
+	font-family: sans-serif; 
+	margin-left: 45px; 
+	margin-bottom: px;
+}
+
+img {
+	padding: 10px;
+}
+ 
+.Education {
+	color: black;
+	text-align: left;
+	height: 600px; 
+}
+
+.padding0 {
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.resumesectionheader {
+	border-top: solid; 
+	border-width: 0.5px;
+	border-color: #BFC0C3;
+	color: #4574A2;
+	font-size: 40px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bold;
+	padding-left: 65px;
+	padding-top: 10px;
+}
+
+.resumesubsectionheader {
+	color: black;
+	font-size: 25px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bolder;
+	padding-left: 65px;
+	padding-top: 0px;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.resumesubsectioncontent {
+	color: black;
+	font-size: 18px;
+	font-family: helvetica; 
+	font-weight: lighter;
+	padding-left: 65px;
+	padding-top: 0px;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;	
+	list-style-type: circle;
+
+}
