@@ -20,6 +20,16 @@ h1 {
     Margin-top: 10%;
 }
 
+h2 { 
+    background: rgb(211,199,189);
+    padding: 10px;
+    color: rgb(54, 45,49);
+    position: fixed;
+    font-family: 'Barrio';font-size: 22px;
+    margin-left: 10%;
+    Margin-top: 50%;
+}
+
 p {
     font-family: 'Barrio';font-size:30px;
     padding: 5px;
