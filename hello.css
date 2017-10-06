@@ -32,13 +32,13 @@ p {
 
 a {
 
-    font-family: 'Barrio';font-size:15px;
+    font-family: 'Barrio';font-size:20px;
     padding: 5px;
     background: rgb(211,199,189);
-    color: rgb(54, 45,49);
+    color: rgb(186,145,92);
     position: absolute;
     margin-left:70%;
-    margin-top: 70%;
+    margin-top: 60%;
 
 }
 
