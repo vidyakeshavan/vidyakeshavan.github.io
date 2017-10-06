@@ -27,6 +27,18 @@ p {
     color: rgb(54, 45,49);
     position: absolute;
     margin-left:70%;
+    margin-top: 50%;
+}
+
+a {
+
+    font-family: 'Barrio';font-size:15px;
+    padding: 5px;
+    background: rgb(211,199,189);
+    color: rgb(54, 45,49);
+    position: absolute;
+    margin-left:70%;
     margin-top: 70%;
+
 }
 
