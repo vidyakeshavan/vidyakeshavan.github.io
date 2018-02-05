@@ -14,17 +14,17 @@ body {
 	transform: translate(-50%, -50%);
 }
 
-.yellow-box {
-	width: 500px;
-	height: 450px; 
-	background: #ff0;
+.beige-box {
+	width: 768px;
+	height: 500px; 
+	background: #afab98;
 	padding: 50px;
 }
 
-.blue-box {
+.lightbeige-box {
 	width: 400px;
 	height: 400px; 
-	background: #00f;
+	background: #c1c1bd;
 	padding: 50px;
 }
 
