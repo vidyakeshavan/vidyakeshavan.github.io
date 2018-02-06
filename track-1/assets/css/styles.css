@@ -1,8 +1,6 @@
 body {
   font-family: 'Permanent Marker', cursive;
   background: url("https://nationalgriefawarenessday.com/wp-content/uploads/2018/01/crumpled-paper-texture-white-crumpled-paper-texture.jpg");
-  margin-left: auto;
-  margin-right: auto;
   position: center;
 
 }
@@ -22,7 +20,7 @@ h1 {
   width: 680px;
   margin: 100px auto 0;
   overflow: visible;
-  position: relative;
+  position: center;
 }
 
 .mask {1
