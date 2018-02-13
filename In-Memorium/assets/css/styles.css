@@ -48,7 +48,7 @@ li {
 }
 
 li:hover {
-  color:greenyellow;
+  color: #98FB98;
 }
 
 li:nth-child(1) {
