@@ -9,6 +9,9 @@ body {
 	font-family: 'Helvetica', 'Arial', 'sans-serif'; 
 }
 
+div {
+	display: block;
+}
 
 .header {
 	font-size: 40px;
@@ -28,12 +31,19 @@ body {
 .content {
 	width: 987px;	
 	margin: 96px auto 0 auto;
-}s
+}
 
 .item {
-	display: block;
+	display: inline-block;
 	width: 276px;
 	font-size: 40px;
 	margin: 0px 25px 50px 25px;
+}
+
+.item:hover {
 	cursor: pointer;
+}
+
+.add-button:hover {
+	background: yellow;
 }
