@@ -1,42 +1,4 @@
 body {
   background: #000000;
   color: #ffffff;
-  border-color: white;
-  border-width: medium;
-  border-style: dashed;
-  margin: 200px 100px 200px 100px;
-}
-
-
-
-.vertical-text {  
-  transform: rotate(270deg);
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 100px;
-  float: right;
-  transform-origin: 90% 100%; 
-}
-
-a {
-  color: #ffffff;
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  font-size: 68px;
-  font-weight: 900;
-  letter-spacing: -2px;
-  text-transform: uppercase;
-  transform: translate3d(0, 0, 0);
-}
-
-a:link {
-  text-decoration: none;
-}
-
-a:hover {
-  color: palevioletred;
-}
-
-ul {
-  list-style-type: none;
-  margin: 25px;
 }
