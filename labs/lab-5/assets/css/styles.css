@@ -39,6 +39,20 @@ body {
   margin-bottom: 10px;
 }
 
+
+/* parent/child relationship */
 .item:hover .add-button {
   border-bottom: 2px solid #000;
+}
+
+.item.in-cart img {
+  opacity: .25;
+}
+
+.item.in-cart .description {
+  display: none;
+}
+
+.item.in-cart:after {
+  content:'In Cart';
 }
