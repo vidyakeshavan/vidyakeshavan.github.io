@@ -7,6 +7,7 @@ $('.item').click(function() {
     
         //Add in-cart class to iterms that have been clicked
         $(this).addClass('in-cart');
+
     
     
         //increment the cart number
@@ -19,6 +20,13 @@ $('.item').click(function() {
             new_count     = current_value + 1;
             
         $('.item-count').html(new_count);
+        $(this).addClass('in-cart');
     }
     
     });
+
+    $('.cart-toggle').click(function() {
+        $('.cart').toggleClass('hide');
+    }); 
+
+  
