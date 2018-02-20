@@ -1,0 +1,124 @@
+body {
+  background: #000000;
+  color: #ffffff;
+}
+
+.bizcard-container {
+  background: #ffffff;
+  color: #000000;
+  border-color: white;
+  border-width: medium;
+  border-style: dashed;
+  margin: 200px 100px 200px 100px;
+}
+
+.vertical-text {  
+  transform: rotate(90deg);
+  font-family: 'Acme', sans-serif;
+  font-size: 100px;
+  float: right;
+  position: absolute;
+  top: 510px;
+  right: -60px;
+}
+
+.upright-text {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 250px;  
+  font-family: 'Acme', sans-serif;
+  text-transform: lowercase;
+}
+
+a {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  font-weight: lighter;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  transform: translate3d(0, 0, 0);
+}
+
+.hi-text {
+  position: absolute;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d5bb49;
+}
+
+span {
+  color: #d5bb49;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 25px;
+  margin-top: 400px;
+  margin-bottom: 40px;
+} 
+
+img {
+  position: absolute;
+
+
+
+-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+transform: rotate(-40deg);
+-webkit-animation: wink 0.5s alternate infinite; /* Safari 4+ */
+  -moz-animation:    wink 0.5s alternate infinite; /* Fx 5+ */
+  -o-animation:      wink 0.5s alternate infinite; /* Opera 12+ */
+  animation:         wink 0.5s alternate infinite; /* IE 10+, Fx 29+ */
+-webkit-transform-origin: 50% 100%;
+-moz-transform-origin: 50% 100%;
+-o-transform-origin: 50% 100%;
+-ms-transform-origin: 50% 100%;
+transform-origin: 50% 100%;
+-webkit-animation-timing-function: ease; /* Chrome, Safari, Opera */
+animation-timing-function: ease;
+}
+
+@-webkit-keyframes wink {
+  0% {-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+}
+
+
+
+100% {-webkit-transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-o-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);}
+} 
+
+@keyframes wink {
+  
+
+  0% {-webkit-transform: rotate(-40deg);
+-moz-transform: rotate(-40deg);
+-o-transform: rotate(-40deg);
+-ms-transform: rotate(-40deg);
+transform: rotate(-40deg);
+}
+
+
+100% {-webkit-transform: rotate(40deg);
+-moz-transform: rotate(40deg);
+-o-transform: rotate(40deg);
+-ms-transform: rotate(40deg);
+transform: rotate(40deg);}
+
+
+
+}
