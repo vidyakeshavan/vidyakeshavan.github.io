@@ -1,19 +1,7 @@
 body {
   background: #000000;
   color: #ffffff;
-  border-color: white;
-  border-width: medium;
-  border-style: dashed;
   margin: 200px 100px 200px 100px;
-}
-
-.vertical-text {  
-  transform: rotate(270deg);
-  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-size: 100px;
-  float: right;
-  transform-origin: 90% 100%; 
 }
 
 a {
