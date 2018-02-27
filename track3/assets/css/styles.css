@@ -1,5 +1,5 @@
 html {
-  background-color: #F2DDDE;
+  background-color: #D8AE47;
   height: 100%;
 }
 
@@ -45,9 +45,7 @@ body {
   margin-left: 10px;
 }
 
-/*
-** Apply styles to the parent element
-*/
+
 .Words {
   position: relative;
   bottom: 150px;
@@ -63,9 +61,7 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-/*
-** Apply common styles to each line of text
-*/
+
 .Words-line {
   height: 50px;
   overflow: hidden;
@@ -101,9 +97,7 @@ body {
   left: 203px;
 }
 
-/*
-** Fine-grained text styles
-*/
+
 p {
   height: 50px;
   line-height: 45px;
@@ -116,9 +110,7 @@ p {
   white-space: nowrap;
 }
 
-/*
-** The hover interaction
-*/
+
 .Words:hover p {
   -webkit-transform: translate3d(0, -100px, 0);
           transform: translate3d(0, -50px, 0);
