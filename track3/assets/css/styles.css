@@ -1,0 +1,125 @@
+html {
+  background-color: #F2DDDE;
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.instruction {
+  position: absolute;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin: 40px;
+  margin-left: 60px;
+  font-weight: 900;
+  color: black;
+}
+
+.container {
+  color:white;
+  background: white;
+  border-color: black;
+  border-width: 9px;
+  border-style: solid;
+  margin: 100px 100px 100px 100px;
+  position: absolute;
+  height: 500px;
+  width: 250px;
+}
+
+.container:hover {
+  background-color: black;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color:black;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 250px;
+  margin-left: 10px;
+}
+
+/*
+** Apply styles to the parent element
+*/
+.Words {
+  position: relative;
+  bottom: 150px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-kerning: normal;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*
+** Apply common styles to each line of text
+*/
+.Words-line {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.Words-line:nth-child(odd) {
+  -webkit-transform: skew(60deg, -30deg) scaleY(0.66667);
+          transform: skew(60deg, -30deg) scaleY(0.66667);
+}
+.Words-line:nth-child(even) {
+  -webkit-transform: skew(0deg, -30deg) scaleY(1.33333);
+          transform: skew(0deg, -30deg) scaleY(1.33333);
+}
+.Words-line:nth-child(1) {
+  left: 29px;
+}
+.Words-line:nth-child(2) {
+  left: 58px;
+}
+.Words-line:nth-child(3) {
+  left: 87px;
+}
+.Words-line:nth-child(4) {
+  left: 116px;
+}
+.Words-line:nth-child(5) {
+  left: 145px;
+}
+.Words-line:nth-child(6) {
+  left: 174px;
+}
+.Words-line:nth-child(7) {
+  left: 203px;
+}
+
+/*
+** Fine-grained text styles
+*/
+p {
+  height: 50px;
+  line-height: 45px;
+  padding: 0 10px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .4s ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+/*
+** The hover interaction
+*/
+.Words:hover p {
+  -webkit-transform: translate3d(0, -100px, 0);
+          transform: translate3d(0, -50px, 0);
+}
