@@ -28,7 +28,7 @@ body {
 
 .letter, .space {
   display: inline-block;
-  font-size: 20vw;
+  font-size: 10vw;
   text-transform: uppercase;
   font-family: 'Bungee Outline', cursive;
   font-weight: bold;
@@ -41,6 +41,8 @@ body {
 .space {
   width: .5em;
 }
+
+
 
 @-webkit-keyframes anim1 {
   0% {
